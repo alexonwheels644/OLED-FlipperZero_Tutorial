@@ -21,7 +21,7 @@ First of all, we flash the OTP:
 ### 2. Second Stage — Flashing qFlipper
 1. Download **qFlipper**.
 2. Connect the STM32 while holding down the `BOOT` button, click **Install from file**, select `FW.dfu` and click **INSTALL**, then wait for it to finish.
-3. > [!WARNING]
+> [!WARNING]
 > Next, you **MUST** connect the micro SD card according to this scheme:
    * **SD CS:** `A10`
    * **SD MOSI:** `B5`
