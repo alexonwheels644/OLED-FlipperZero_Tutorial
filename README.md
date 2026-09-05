@@ -11,8 +11,10 @@ First of all, we flash the OTP:
 1. Download the **STM32CubeProgrammer**.
 2. Connect the board with the `BOOT` pin clamped via USB.
 3. Go to the **Erasing & programming** tab.
-4. Click `Browse` and select the `First_otp.bin` file and enter the address `0x1FFF7000` (we don't check any boxes) and click **Start Programming**.
-5. Next, select the file `Second_otp.bin` and enter the address `0x1FFF7018`. 
+4. <img width="1199" height="694" alt="1" src="https://github.com/user-attachments/assets/64fc4ae4-737d-40a3-aa5e-8c87be5ee0b3" />
+5. Click `Browse` and select the `First_otp.bin` file and enter the address `0x1FFF7000` (we don't check any boxes) and click **Start Programming**.
+6. <img width="1135" height="657" alt="2" src="https://github.com/user-attachments/assets/5c924cd3-95b6-483a-972c-dff30ef16ecd" />
+7. Next, select the file `Second_otp.bin` and enter the address `0x1FFF7018`. 
 
 **Congratulations, you have flashed the OTP addresses onto your board!**
 
