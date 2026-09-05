@@ -20,14 +20,23 @@ First of all, we flash the OTP:
 
 ### 2. Second Stage — Flashing qFlipper
 1. Download **qFlipper**.
-2. Connect the STM32 while holding down the `BOOT` button, click **Install from file**, select `FW.dfu` and click **INSTALL**, then wait for it to finish.
-> [!WARNING]
+2. Connect the STM32 while holding down the `BOOT` button, click **Install from file**, select `First.dfu` and click **INSTALL**, then wait for it to finish.
+> [!NOTE]
 > Next, you **MUST** connect the micro SD card according to this scheme:
-   * **SD CS:** `A10`
-   * **SD MOSI:** `B5`
-   * **SD MISO:** `A8`
-   * **SD SCK:** `B3`
+> * **SD CS:** `A10`
+> * **SD MOSI:** `B5`
+> * **SD MISO:** `A8`
+> * **SD SCK:** `B3`
 
-As soon as you connect the SD card, plug in the STM32 **without** holding down the `BOOT` button so that it starts in normal mode. As soon as it starts, click **Install from file** again and select `update_v1-1.tgz`.
+As soon as you connect the SD card, plug in the STM32 **without** holding down the `BOOT` button so that it starts in normal mode. As soon as it starts, click **Install from file** again and select `update_v2-1.tgz`.
 
 After that, your board is fully flashed!
+
+## :zap: Hardware
+
+The best way to connect it would, of course, be to purchase my printed circuit board, which is designed to fit the original housing, but I will also fully demonstrate the correct wiring diagram.
+<img width="997" height="700" alt="scheme" src="https://github.com/user-attachments/assets/ebb01911-c022-470e-83f7-42fc71f0c7f9" />
+
+
+
+
