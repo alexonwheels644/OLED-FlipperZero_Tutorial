@@ -14,21 +14,20 @@ First of all, we flash the OTP:
 4. Click `Browse` and select the `First_otp.bin` file and enter the address `0x1FFF7000` (we don't check any boxes) and click **Start Programming**.
 5. Next, select the file `Second_otp.bin` and enter the address `0x1FFF7018`. 
 
-> [!NOTE]
-> Congratulations, you have flashed the OTP addresses onto your board!
+**Congratulations, you have flashed the OTP addresses onto your board!**
 
 ---
 
 ### 2. Second Stage — Flashing qFlipper
 1. Download **qFlipper**.
 2. Connect the STM32 while holding down the `BOOT` button, click **Install from file**, select `FW.dfu` and click **INSTALL**, then wait for it to finish.
-3. Next, you **MUST** connect the micro SD card according to this scheme:
+3. > [!WARNING]
+> Next, you **MUST** connect the micro SD card according to this scheme:
    * **SD CS:** `A10`
    * **SD MOSI:** `B5`
    * **SD MISO:** `A8`
    * **SD SCK:** `B3`
 
-> [!WARNING]
-> As soon as you connect the SD card, plug in the STM32 **without** holding down the `BOOT` button so that it starts in normal mode. As soon as it starts, click **Install from file** again and select `update_v1-1.tgz`.
+As soon as you connect the SD card, plug in the STM32 **without** holding down the `BOOT` button so that it starts in normal mode. As soon as it starts, click **Install from file** again and select `update_v1-1.tgz`.
 
 After that, your board is fully flashed!
