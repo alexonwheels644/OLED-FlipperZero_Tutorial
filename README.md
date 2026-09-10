@@ -106,7 +106,7 @@ This section guides you through connecting and configuring a liquid crystal disp
 
 ### 📂 Where to Find the Code
 
-The code is in the folder Рow to use liquid-crystal display
+The code is in the folder How to use liquid-crystal display
 
 ---
 
