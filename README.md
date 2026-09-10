@@ -3,6 +3,10 @@
 > [!WARNING]
 > I do not take responsibility if you damage your board or property. This guide is for educational purposes only — proceed at your own risk.
 
+> [!NOTE]
+> ❓Do you want to use the liquid crystal display with this firmware because it has all the functions?
+> Scroll to the very bottom.
+
 > [!TIP]
 > ❓ Need help or have questions about building/flashing the DIY Flipper? 
 > Join our community Q&A and troubleshooting discussion: **[GitHub Q&A Discussion #4](https://github.com/artema0g/oled_flipper/discussions/4)**
@@ -95,6 +99,21 @@ The DIY Flipper Zero features a standard 18-pin expansion header fully compatibl
 > [!TIP]
 > * **Recommended General-Purpose Pins**: Pins **4 (PA4)** and **6 (PB2)** are completely unshared and ideal for relays, servos, buttons, or custom sensors.
 > * **External SPI Modules**: When connecting external SPI devices to Pins 2 (MOSI), 3 (MISO), and 5 (SCK), use Pin 4 (PA4) or Pin 6 (PB2) as a dedicated Chip Select (CS) line.
+
+## Using a Liquid Crystal Display with This Firmware
+
+This section guides you through connecting and configuring a liquid crystal display (LCD) to work seamlessly with **this firmware**.
+
+### 📂 Where to Find the Code
+
+The code is in the folder Рow to use liquid-crystal display
+
+---
+
+## :zap: Hardware
+<img width="870" height="584" alt="Снимок экрана 2026-09-10 190504" src="https://github.com/user-attachments/assets/cfb92670-032a-47fd-9005-c6324f50f73a" />
+
+
 
 
 ## 🤝 We all need to say thank you to [artema0g](https://github.com/artema0g) for this firmware!
