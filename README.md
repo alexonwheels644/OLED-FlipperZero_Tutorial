@@ -59,7 +59,7 @@ First of all, we flash the OTP:
 > Next, you **MUST** connect the micro SD card according to this scheme:
 > * **SD CS:** `A10`
 > * **SD MOSI:** `B5`
-> * **SD MISO:** `A8`
+> * **SD MISO:** `A6`
 > * **SD SCK:** `B3`
 
 As soon as you connect the SD card, plug in the STM32 **without** holding down the `BOOT` button so that it starts in normal mode. As soon as it starts, click **Install from file** again and select `update_v2-1.tgz`.
